@@ -28,7 +28,7 @@ The system should support:
 | `linkedlist.py` | Defines `Book` and `BookLinkedList` classes (insert, delete, search, display). |
 | `stack.py` | Defines `Transaction` and `TransactionStack` classes (push, pop, view transactions). |
 | `main.py` | Demonstrates the system: adds books, issues, returns, and performs undo operation. |
-| `055Assignment-2.pdf` | PDF report formatted for submission. |
+| `045Assignment-2.pdf` | PDF report formatted for submission. |
 
 ## 🧩 Data Structures Used
 
@@ -40,15 +40,3 @@ The system should support:
 ### 🔹 Stack
 - Used to record transactions (ISSUE or RETURN).
 - Supports **LIFO** (Last In First Out) behavior for Undo operation.
-
-## ▶️ How to Run
-
-Ensure Python 3 is installed on your system.
-
-```bash
-# Step 1: Clone the repository
-git clone https://github.com/Kunalthakran/dsa-assignment-2.git
-cd dsa-assignment-2
-
-# Step 2: Run the program
-python3 main.py
